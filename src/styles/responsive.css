@@ -1,0 +1,87 @@
+@media screen and (min-width: 600px) {
+    .app-bar {
+        grid-template-columns: 1fr auto;
+        padding: 0 32px;
+    }
+   
+    .app-bar .app-bar__brand h1 {
+        font-size: 1.5em;
+    }
+   
+    .app-bar .app-bar__menu {
+        display: none;
+    }
+   
+    .app-bar .app-bar__navigation {
+        position: static;
+        width: 100%;
+    }
+   
+    .app-bar .app-bar__navigation ul li {
+        display: inline-block;
+    }
+   
+    .app-bar .app-bar__navigation ul li a {
+        display: inline-block;
+        width: 120px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .restos{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .resto {
+        grid-template-columns: auto 1fr;
+    }
+
+    .resto .resto__title {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .resto .resto__overview {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero {
+        min-height: 500px;
+        background: url('/images/hero-image-small.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+}   
+
+@media screen and (min-width: 800px) {
+    .app-bar .app-bar__brand h1 {
+        font-size: 2em;
+    }
+}    
+
+@media screen and (min-width: 850px) {
+    .restos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hero {
+        background: url('/images/hero-image-large.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .restos {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .restos {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}

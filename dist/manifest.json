@@ -1,0 +1,79 @@
+{
+  "icons": [
+    {
+      "src": "icons/android/icon_512x512.60eb85ff25532b4ecf7a4d4e5510b902.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/android/icon_192x192.834a32c27580fd1475292fe0e68c2f68.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/android/icon_144x144.b4a6d67a4bd30e0c8ca53606e1527ba7.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/android/icon_96x96.f09098817e4336d70e2078fa123a043e.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/android/icon_72x72.68d1306be60a1026aec171d7d187515a.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/android/icon_48x48.2120abc9f3b860a1e7b30bfb3fd3fb65.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/android/icon_36x36.bce07b9f5eee8c9cca5413b933a04f49.png",
+      "sizes": "36x36",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/ios/icon_512x512.60eb85ff25532b4ecf7a4d4e5510b902.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/ios/icon_180x180.f383a185aca0ab022bb5c5a1230d6fc2.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/ios/icon_167x167.306c376601c350ba3ab3576a4f3cdd94.png",
+      "sizes": "167x167",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/ios/icon_152x152.7b06bd20343b09a4a371852f33f86364.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/ios/icon_120x120.f27f06acdb53ecfec3ed6598b8fbe442.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    }
+  ],
+  "name": "Restaurant Catalogue Lite",
+  "short_name": "Restaurant Lite",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/index.html",
+  "description": "Free Catalogue Restaurant for you",
+  "background_color": "#ffffff",
+  "theme_color": "#667d90"
+}
